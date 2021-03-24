@@ -1,0 +1,103 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgba(0, 26, 255, 0.89);
+    display: flex;
+    justify-content: space-between;
+ 
+    border: solid 2px;
+    letter-spacing: 3px;
+}
+.headerabout{
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+}
+.aboutme1{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 5;
+    border-color: cyan;
+}
+.hobbies{
+    background-color: red;
+    display:flex;
+    justify-content: left;
+    border: solid;
+    border-width: 5;
+    border-radius: 100 ;
+    border-color: blue;
+    
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.between{
+    display: wrap;
+    background-color: violet;
+    border : solid;
+    border-color: violet;
+    border-width: thick;
+
+}
+.grid{
+     
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color:skyblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+display : wrap;
+background-color: lime;
+border : solid;
+border-color:blue;
+border-width:3;
+border-radius: 50px;
+color :rgba(17, 0, 255, 0.89);
+font-size: large;
+justify-content: center;
+align-items: center;
+     
+}
+.item img{
+    justify-items: center;
+    justify-content: center;
+    padding-left: 25%;
+}
+.item p{
+    opacity : 0
+}
+.item:hover p{
+    opacity : 1
+}
+p,h2{
+    text-align: center;
+}
+
+.item pre{
+    opacity : 0
+}
+.item:hover pre{
+    opacity : 1
+}
+pre,h2{
+    text-align: center;
+}
